@@ -1,5 +1,7 @@
 /// Macros for write typescript in rust file.
 ///
+///  This macros take typescript syntax for generating in wasm.
+///
 /// ```
 ///  ts! {
 ///    let hello: string = 'Hello, world!';
