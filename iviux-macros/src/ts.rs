@@ -10,5 +10,5 @@
 /// ```
 #[macro_export]
 macro_rules! ts {
-    () => {};
+    ($($ts:tt)*) => {};
 }
