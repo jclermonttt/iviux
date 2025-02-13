@@ -13,6 +13,9 @@ edition = "2024"
 rust-version = "1.86"
 
 [workspace.dependencies]
+iviux-macros = { version = "*", path = "./iviux-macros" }
+iviux-runtime = { version = "*", path = "./iviux-runtime" }
+
 toml = "0.8.20"
 toml_edit = "0.22.24"
 serde = "1.0.217"
