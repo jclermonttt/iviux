@@ -1,3 +1,3 @@
 //! Macros for UI in framework Iviux.
 
-pub mod tsx;
+pub mod ts;
