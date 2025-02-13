@@ -1,6 +1,7 @@
 [package]
 name = "iviux"
 version = "0.1.0"
+keywords = ["framework", "cross-platform"]
 authors.workspace = true
 edition.workspace = true
 rust-version.workspace = true
