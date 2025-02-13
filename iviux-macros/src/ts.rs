@@ -1,10 +1,9 @@
+/// Macros for write typescript in rust file.
+///
 /// ```
 ///  ts! {
-///    function greet(message: String) {
-///     console.log(message);
-///    }
-///
-///    greet("Hello World");
+///    let hello: string = 'Hello, world!';
+///    console.log(hello);
 ///  }
 /// ```
 #[macro_export]
