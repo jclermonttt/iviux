@@ -1,0 +1,11 @@
+[package]
+name = "iviux-cli"
+version = "0.1.0"
+authors.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+
+[lints]
+workspace = true

@@ -1,0 +1,18 @@
+cargo-features = ["edition2024"]
+
+[workspace.lints.rust]
+unsafe_forbid = "forbid"
+
+[workspace]
+resolver = "3"
+members = ["iviux", "iviux-*"]
+
+[workspace.package]
+authors = ["Jeremy Clermont"]
+edition = "2024"
+rust-version = "1.86"
+
+[workspace.dependencies]
+toml = "0.8.20"
+toml_edit = "0.22.24"
+serde = "1.0.217"
